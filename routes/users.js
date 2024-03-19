@@ -24,6 +24,9 @@ const userSchema = mongoose.Schema({
   }],
   posts:[{  type:mongoose.Schema.Types.ObjectId,
     ref:"post"
+  }],
+  stories:[{  type:mongoose.Schema.Types.ObjectId,
+    ref:"post"
   }]
 });
 
